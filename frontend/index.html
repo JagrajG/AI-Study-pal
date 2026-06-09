@@ -3,16 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flashcards</title>
-
+    <title>AI Study Partner</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
-      <h1 id="title"></h1>
+      <h1 id="title">AI Study Partner</h1>
+
+      <div class="upload-box">
+        <input type="file" id="pdfInput" accept="application/pdf" />
+        <button id="generate">Generate Flashcards</button>
+      </div>
+
+      <p id="status"></p>
 
       <div id="card">
-        <p id="question"></p>
+        <p id="question">Upload a PDF to generate flashcards</p>
         <p id="answer"></p>
       </div>
 

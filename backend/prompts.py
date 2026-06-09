@@ -8,10 +8,6 @@ Return ONLY valid JSON in the following format:
     {{
       "question": "string",
       "answer": "string"
-    }},
-    {{
-      "question": "string",
-      "answer": "string"
     }}
   ]
 }}
@@ -23,6 +19,8 @@ Rules:
 - Do NOT add any extra text
 - Do NOT use markdown
 - Do NOT include explanations
+- Do NOT wrap the JSON in code fences
+- Answers should be complete and useful for studying
 
 Text:
 {data}
