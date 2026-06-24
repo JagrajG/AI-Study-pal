@@ -1,7 +1,7 @@
 # AI Study Pal
 
 A simple AI flashcard app that allows users to upload a PDF, extract its contents, generate study flashcards using Gemini, and review them through a web interface.
-
+![Video](https://youtu.be/62ppEQOdBvI)
 ![Dashboard](images/dashboard.png)
 
 ## Start Backend
